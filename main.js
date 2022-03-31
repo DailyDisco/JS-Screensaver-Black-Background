@@ -144,7 +144,7 @@ while (balls.length < 25) {
 
 
 function loop() {
-    ctx.fillStyle = 'rgba(0, 0, 0, 0.25)';
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.3)';
     ctx.fillRect(0, 0, width, height);
  
     for (const ball of balls) { //what does const ball of balls mean?
